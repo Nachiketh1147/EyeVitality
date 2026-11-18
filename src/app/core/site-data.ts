@@ -10,7 +10,7 @@ export interface NavItem { label: string; link: string; }
 export const CLINIC = {
   name: 'EyeVitality',
   phone: '+91 70198 94846',
-  telHref: 'tel:+917019894846',
+  telHref: 'tel:+919854678906',
   email: 'care@eyevitality.com',
   address: "No 13118, 4th Floor, Marenahalli Road 100 Feet Ring Road, Marenahalli Rd, J. P. Nagar, Bengaluru, Karnataka 560041",
   mapUrl: 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent("No 13118, 4th Floor, Marenahalli Road 100 Feet Ring Road, Marenahalli Rd, J. P. Nagar, Bengaluru, Karnataka 560041"),
