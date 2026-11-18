@@ -1,4 +1,5 @@
 // Site content. Edit the text, phone number, address and doctors here.
+// NOTE: the phone number and address below are DUMMY placeholders. Replace them with real details before going live.
 
 export interface Doctor { name: string; role: string; qualifications: string; experience: string; photo: string; position: string; bio: string; focus: string[]; }
 export interface Service { icon: string; title: string; summary: string; included: string; audience: string; image: string; imageAlt: string; }
@@ -9,11 +10,11 @@ export interface NavItem { label: string; link: string; }
 
 export const CLINIC = {
   name: 'EyeVitality',
-  phone: '+91 70198 94846',
-  telHref: 'tel:+919854678906',
+  phone: '+91 00000 00000',
+  telHref: 'tel:+910000000000',
   email: 'care@eyevitality.com',
-  address: "No 13118, 4th Floor, Marenahalli Road 100 Feet Ring Road, Marenahalli Rd, J. P. Nagar, Bengaluru, Karnataka 560041",
-  mapUrl: 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent("No 13118, 4th Floor, Marenahalli Road 100 Feet Ring Road, Marenahalli Rd, J. P. Nagar, Bengaluru, Karnataka 560041"),
+  address: '123 Vision Street, Healthcare District, City, State 000000',
+  mapUrl: 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('123 Vision Street, Healthcare District, City, State 000000'),
   founded: 2012
 };
 

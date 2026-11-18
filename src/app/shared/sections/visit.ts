@@ -10,7 +10,7 @@ import { RevealDirective } from '../reveal.directive';
     <section class="alt">
       <div class="w split">
         <div appReveal>
-          <h2 style="margin-bottom: 22px">Visit us in J. P. Nagar.</h2>
+          <h2 style="margin-bottom: 22px">Visit us at the clinic.</h2>
           <p class="lead">{{ clinic.address }}</p>
           <p>Call us to book or confirm your appointment time.</p>
           <p style="margin-top: 24px">
@@ -20,7 +20,7 @@ import { RevealDirective } from '../reveal.directive';
         </div>
         <div class="media" appReveal>
           <img class="ph" src="images/reception.jpg" alt="Our bright, welcoming reception area" loading="lazy" />
-          <span class="chip">J. P. Nagar, Bengaluru</span>
+          <span class="chip">Healthcare District</span>
         </div>
       </div>
     </section>
